@@ -17,7 +17,7 @@ port = int(os.getenv("PORT", 8080))
 
 @app.route('/')
 def hello_world():
-    print(os.environ)
+#    print(os.environ)
     return 'Hello World!'
 
 if __name__ == '__main__':
